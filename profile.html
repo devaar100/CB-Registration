@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+<div id="startpage1" style="background: linear-gradient(to bottom right, red, yellow);height: 400px;width:1600px;z-index: 4;position: fixed">
+</div>
+<div id="startpage2" style="background: linear-gradient(to bottom right, yellow,red);height: 500px;width:1600px;margin-top: 402px;z-index: 4;position: fixed">
+</div>
+<img id="cblogo" src="download.png" style="width: 200px;height: 200px;margin-top: 300px;margin-left:40%;z-index: 5;position: fixed">
+<ul style="position:fixed;z-index: 3;width: 100%">
+    <li><a style="font-size: 18px" href="#" class="active">Home</a></li>
+    <li><a style="font-size: 18px" href="#">News</a></li>
+    <li><a style="font-size: 18px" href="#">About</a></li>
+    <li><a style="font-size: 18px" href="#">Latest</a></li>
+    <li class="dropdown" style="float:right;margin-right: 1%;font-size: 18px">
+        <a href="javascript:void(0)" class="dropbtn">Contact Us</a>
+        <div class="dropdown-content" style="z-index: 3">
+            <a href="#">E-mail</a>
+            <a href="#">Live session</a>
+            <a href="#">Contact</a>
+        </div>
+    </li>
+</ul>
+<div style="height: 55px;background-color: white;"></div>
+<ul style="background-color: #333; padding: 10px;">
+    <li style="margin-right: 55px">
+        <img src="download.png" height="180" width="180" style="margin-left: 20px;margin-top: 15px; font-size: large"><br>
+        <div style="margin-top: 10px; font-size: xx-large; color: white">&nbsp;&nbsp;Coding Blocks</div>
+    </li>
+    <li>
+        <p style="color: white; font-size: 30px; margin: 10px; font-style: italic">Learn From The Best In The Field</p>
+        <ul style="display: inline-block; margin: 10px;margin-bottom: 0">
+            <li><img src="less.png" height="100" width="30" style="margin: 20px; margin-bottom: 0; margin-top: 25px; border: 1px solid white; padding: 10px; background-color: #222222"></li>
+            <li><img src="Screen%20Shot%202017-06-19%20at%2012.05.18%20PM.png" height="140" width="140" style="margin: 20px;margin-top: 0px; margin-bottom: 0"></li>
+            <li><p style="width: 400px;margin-top: 0px; background-color: white; padding: 5px; border-radius: 5px"><b>ARNAV GUPTA</b><br>
+                Founding Member
+                Arnav Gupta, also popular as @ChampionSwimmer, is an acclaimed Android developer and two timer GSoC-er. He has presented at large conferences like JSFOO, DroidCon, FOSSASIA and OSDConf. He has also worked with Sony, Micromax, Cyanogen and the likes.Arnav has also active contributed int the development of Android OS, Linux Kernel and will also be mentoring students in GSoC’17.
+            </p></li>
+            <li><img src="more.png" height="100" width="30" style="margin: 20px; margin-top: 25px;margin-bottom: 0; border: 1px solid white; padding: 10px; background-color: #222222"></li>
+        </ul>
+    </li>
+</ul>
+<div style="background-color: white">
+<table style="margin: auto">
+    <tr>
+        <td><img src="Screen%20Shot%202017-06-19%20at%2012.51.29%20PM.png" class="ser1" ></td>
+        <td><img src="Screen%20Shot%202017-06-19%20at%2012.52.56%20PM.png" class="ser1" ></td>
+        <td><img src="Screen%20Shot%202017-06-19%20at%2012.53.24%20PM.png" class="ser1" ></td>
+        <td><img src="Screen%20Shot%202017-06-19%20at%201.05.05%20PM.png" class="ser1" ></td>
+    </tr>
+</table>
+</div>
+<div style="margin: 0;background: red;
+background: linear-gradient(to bottom right, red, yellow); padding: 20px">
+<form style="padding: 10px; margin: auto ; width: 400px; background:rgba(255,255,255, 0.85); border-radius: 5px">
+    <img style="float: left; margin: 20px" src="download.png" height="40" >
+<h4>&nbsp;&nbsp;&nbsp;&nbsp;Registration Form</h4>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please Fill Out These Details</p>
+    <div class="group">
+        <input type="text" required>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Name</label>
+    </div>
+    <table style="margin: 20px">
+        <tr><td>
+            <label class="mdl-radio mdl-js-radio" for="option1">
+                <input type="radio" id="option1" name="gender" class="mdl-radio__button" checked>
+                <span class="mdl-radio__label">Male</span>
+            </label>
+        </td>
+            <td>
+                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option2">
+                    <input type="radio" id="option2" name="gender" class="mdl-radio__button" >
+                    <span class="mdl-radio__label">Female</span>
+                </label>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <div class="dropdown">
+        <button class="dropbtn" style="font-size:15px;width: 315px;margin-left: 20px; color: black">Select Course</button>
+        <div id="myDropdown" class="dropdown-content" style="margin-left: 20px">
+            <a style="width: 280px">Crux</a>
+            <a>Launchpad</a>
+            <a>Pandora</a>
+            <a>Elixir</a>
+            <a>Algo++</a>
+        </div>
+    </div>
+    <div class="group">
+        <input type="text" required>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>E-Mail</label>
+    </div>
+    <div class="group" >
+        <input type="text" required>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Contact Number</label>
+    </div>
+    <div class="group" >
+        <input type="text" required>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>College and Year</label>
+    </div>
+    <table style="margin-left: 30px; margin-bottom: 20px">
+        <tr><td>
+            <label class="mdl-checkbox mdl-js-checkbox" for="checkbox1">
+                <input type="checkbox" id="checkbox1" class="mdl-checkbox__input" checked >
+                <span class="mdl-checkbox__label">Friends</span>
+            </label>
+        </td>
+            <td>
+                <label class="mdl-checkbox mdl-js-checkbox" for="checkbox1">
+                    <input type="checkbox" id="checkbox2" class="mdl-checkbox__input" checked >
+                    <span class="mdl-checkbox__label">Social Media</span>
+                </label>
+            </td>
+            <td>
+                <label class="mdl-checkbox mdl-js-checkbox" for="checkbox1">
+                    <input type="checkbox" id="checkbox3" class="mdl-checkbox__input">
+                    <span class="mdl-checkbox__label">College</span>
+                </label>
+            </td>
+        </tr>
+    </table>
+</form>
+</div>
+
+<div style="background-color: black;padding-bottom: 10px;padding-top: 2px">
+    <div style="padding: 10px;margin: auto">
+        <h3 style="text-align: center;color: white;font-size: 40px">Meet Our Team</h3>
+    <img class="dps" src="Screen%20Shot%202017-06-19%20at%2012.05.18%20PM.png" style="margin-left: 3%">
+        <img class="dps" src="Screen%20Shot%202017-06-20%20at%2011.31.04%20AM.png" >
+    <img class="dps" src="Screen%20Shot%202017-06-20%20at%2011.31.04%20AM%202.png" >
+    <img class="dps" src="Screen%20Shot%202017-06-20%20at%2011.31.04%20AM%203.png" >
+    <img class="dps" src="Screen%20Shot%202017-06-20%20at%2011.31.04%20AM%204.png" >
+    <img class="dps" src="Screen%20Shot%202017-06-20%20at%2011.31.47%20AM%202.png" >
+    <img class="dps" src="Screen%20Shot%202017-06-20%20at%2011.31.47%20AM.png" >
+        <img class="dps" src="Screen%20Shot%202017-06-20%20at%2011.31.47%20AM%203.png">
+    </div>
+</div>
+<br><br>
+<div style="background-color: white">
+<table style="margin: auto">
+    <tr><p style="color: red; text-align: center; font-size: 40px">Numbers Speak Louder</p></tr>
+    <tr>
+        <td>
+<div class="btm_con">
+    <a style="font-size: 25px;color: black">Students</a><br><br>
+    <a style="font-size: 40px">5200</a><br><br>
+    Trained for software development
+</div>
+        </td>
+        <td>
+            <div class="btm_con">
+                <a style="font-size: 25px;color: black">PROJECTS</a><br><br>
+                    <a style="font-size: 40px">30</a><br><br>
+                Live open projects built by us and our students
+            </div>
+        </td>
+        <td>
+            <div class="btm_con">
+                <a style="font-size: 25px;color: black">YEARS</a><br><br>
+                <a style="font-size: 40px">55</a><br><br>
+                Collective Teaching Experience
+            </div>
+        </td>
+        <td>
+            <div class="btm_con">
+                <a style="font-size: 25px;color: black">SUCCESS STORIES</a><br><br>
+                <a style="font-size: 40px">1000</a><br><br>
+                Interns and Jobs at top global companies
+            </div>
+        </td>
+    </tr>
+</table>
+</div>
+<div style="height:200px;background-color: #222222; margin-bottom: 10px">
+<table style="padding: 10px;margin: auto">
+    <tr>
+        <td style="width:200px">
+            <ul style="background-color: transparent; text-align: center">
+                <li style="float: none;"><img src="gitcat.png" height="50" width="50" style="margin-bottom: 10px"></li>
+                <li style="float: none;color: white">Open Source Bounty Projects</li>
+                <li style="float: none;color: white">Sample Codes</li>
+                <li style="float: none;color: white">cb.lk/phe101</li>
+            </ul>
+        </td>
+        <td>
+            <div style="width:2px; background-color: white; height: 150px;margin: 20px"></div>
+        </td>
+        <td>
+            <ul style="background-color: transparent; text-align: center">
+                <li style="float: none;"><img src="flogo.png" height="50" width="50" style="margin-bottom: 10px"></li>
+                <li style="float: none;color: white">www.facebook.com/codingblocks</li>
+                <li style="float: none;color: white">Course Details</li>
+                <li style="float: none;color: white">Placement Updates</li>
+            </ul>
+        </td>
+        <td>
+            <div style="width:2px; background-color: white; height: 150px;margin: 20px"></div>
+        </td>
+        <td>
+            <ul style="background-color: transparent; text-align: center">
+                <li style="float: none;"><img src="tweet.png" height="50" width="60" style="margin-bottom: 10px;border-radius: 3px"></li>
+                <li style="float: none;color: white">#codingblocksmademelovecoding</li>
+                <li style="float: none;color: white">New Courses</li>
+                <li style="float: none;color: white">Bootcamp Details</li>
+            </ul>
+        </td>
+        <td>
+            <div style="width:2px; background-color: white; height: 150px;margin: 20px"></div>
+        </td>
+        <td>
+            <ul style="background-color: transparent">
+                <li style="font-size: 20px; float: none;color: white;margin-bottom: 5px">Contact Us:</li>
+                <li style="float: none;color: white">1st Floor,
+                    47, Nishant Kunj,
+                    Main Pitampura Road,
+                    New Delhi</li>
+                <li style="float: none;color: white">Near Kohat Enclave Metro Station
+                    (Exit from Gate # 2)
+                    (Opposite Pillar 337)</li>
+                <li style="float: none;color: white">011 - 47052584 ,
+                    011 - 27354126</li>
+                <li style="float: none;color: white">dinesh.joon@codingblocks.com</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>
